@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Wallpoet', cursive;
+}
+
+body{
+    background-image: url(./bg-timer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+}
+
+html, body, .conteiner{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    place-items: center;
+}
+
+.heading{
+    font-size: 2.0rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: #FF6400;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    animation: animate 1.5s linear infinite;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wrapper-btn{
+    background-color: #000;
+    opacity: 0.7;
+    border: 1px solid #000;
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    margin: 0.4rem;
+}
+
+.wrapper-btn button{
+    display:inline;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    padding-top:0.2rem;
+    padding-bottom:0.2rem;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.wrapper-btn span{
+    font-size: 1.0rem;
+    margin: 0.2rem;
+}
+
+.timer-place{
+    font-size:1.8rem;
+}
+
+
+.paused{
+    color:red
+}
+
+.conteiner-lap{
+    margin: 0.5rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+span{
+    font-size: 1.6rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 1.8rem;
+    color:#ffffff;
+    font-weight: 300;
+}
